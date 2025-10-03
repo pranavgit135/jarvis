@@ -14,4 +14,7 @@ mtranslate
 pygame
 edge_tts
 PyQt5
+flask
+gunicorn
+
 webdriver-manager
