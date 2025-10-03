@@ -102,7 +102,7 @@ def MainExecution():
      R  = any([i for i in Decision if i.startswith("realtime")])
 
      Mearged_query = " and ".join(
-          [" ".join(i.split()[1:]) for i in Decision if i.startswith("general") or i.startswith("resltime")]
+          [" ".join(i.split()[1:]) for i in Decision if i.startswith("general") or i.startswith("realtime")]
 
      )
 
