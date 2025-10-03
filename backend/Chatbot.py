@@ -62,7 +62,7 @@ def ChatBot(Query):
         messages.append({"role":"user","content":f"{Query}"}) 
 
         completion = client.chat.completions.create(
-            model ="llama3-70b-8192",
+            model ="llama-3.1-8b-instant",
             messages=SystemChatBot + [{"role":"system", "content":RealTimeInformation()}] + messages,
             max_tokens=1024,
             temperature=0.7,
